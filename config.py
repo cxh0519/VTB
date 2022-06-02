@@ -17,7 +17,7 @@ def argument_parser():
     parser.add_argument("--train_split", type=str, default="trainval", choices=['train', 'trainval'])
     parser.add_argument("--valid_split", type=str, default="test", choices=['test', 'valid'])
     
-    parser.add_argument('--gpus', default=0, type=str, help='gpu device ids for CUDA_VISIBLE_DEVICES')
+    parser.add_argument('--gpus', default='0', type=str, help='gpu device ids for CUDA_VISIBLE_DEVICES')
     parser.add_argument("--redirector", action='store_false')
     parser.add_argument("--epoch_save_ckpt", type=int, default=5)
     
