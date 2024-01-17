@@ -1,5 +1,10 @@
-# VTB
-## Requirements
+<h2 align="center"> A Simple Visual-Textual Baseline for Pedestrian Attribute Recognition </h2>
+
+<p align="center">
+  <img src="assets/teaser.png" width="75%">
+</p>
+
+## 🔧Requirements
 ### Installation
 ```
 pip install -r requirements.txt
@@ -12,12 +17,12 @@ python rap.py
 ### Pre-trained Model
 ImageNet pre-trained [ViT-Base](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) need to be download for training.
 
-## Training
+## 🚀Training
 ```
 python train.py RAP
 ```
 
-## Citation and Acknowledgements
+## 📌Citation
 If you found this code/work to be useful in your own research, please consider citing the following:
 ```
 @article{cheng2022simple,
@@ -27,4 +32,6 @@ If you found this code/work to be useful in your own research, please consider c
   year={2022}
 }
 ```
-This code is based on [Rethinking_of_PAR](https://github.com/valencebond/Rethinking_of_PAR) and [TransReID](https://github.com/damo-cv/TransReID).
+
+## 👍Acknowledgements
+This code is based on [Rethinking_of_PAR](https://github.com/valencebond/Rethinking_of_PAR) and [TransReID](https://github.com/damo-cv/TransReID). Thanks for their efforts.
